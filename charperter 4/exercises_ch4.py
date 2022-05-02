@@ -32,7 +32,10 @@ for value in threes:
 numbers = list(range(1,11))
 for cube in numbers:
 	print ('El cubo de ' + str(cube) + ' es ' + str(cube**3))
-	
+
+print ('prueba carlos')
+print (value)
+
 # cube compresion.
-cubes = [value **3 for value in range(1,11)]
+cubes = [value **3 for value in range(1,12)]
 print (cubes)

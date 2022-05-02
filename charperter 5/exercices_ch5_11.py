@@ -7,7 +7,11 @@
 # 7th 8th 9th", and each result should be on a separate line.
 
 
-ordinal_numbers = [1,2,3,4,5,6,7,8,9]
+#ordinal_numbers = [1,2,3,4,5,6,7,8,9]
+
+# or you can also made a list using list and range. Note last item 10 its not included in the list.
+
+ordinal_numbers = list (range(1,10))
 
 for position in ordinal_numbers:
 	if position == 1:

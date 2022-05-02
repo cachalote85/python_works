@@ -1,5 +1,7 @@
 my_foods = ['pizza', 'falafel', 'carrot cake']
-friends_foods = my_foods[:]
+friends_foods = my_foods
+
+print (friends_foods)
 
 my_foods.append('lechuga')
 friends_foods.append('hamburguesas')
